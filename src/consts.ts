@@ -1,10 +1,16 @@
 
-export enum AppRoute {
-  Main = '/',
-  Register = '/register',
-  Add = '/add',
-  Edit = '/edit/:id',
-  Catalog = '/products',
-  Product = '/products/:id',
-  NotFound ='*',
-}
+export const AppRoute = {
+  Root: '/',
+  Login: '/login',
+  Register: '/register',
+  Questionary: '/questionary',
+  Main: '/main',
+  Account: '/account',
+  Friends: '/account/friends',
+  Balance: '/account/balance',
+  Orders: '/account/orders',
+  CoachWorkouts: '/account/my-workouts',
+  CreateWorkout: '/account/create-workout',
+  Users: '/users',
+  Workouts: '/workouts',
+} as const;
