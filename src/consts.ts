@@ -4,13 +4,14 @@ export const AppRoute = {
   Login: '/login',
   Register: '/register',
   Questionary: '/questionary',
+  MyPurchases: '/my-purchases',
   Main: '/main',
   Account: '/account',
-  Friends: '/account/friends',
-  Balance: '/account/balance',
-  Orders: '/account/orders',
-  CoachWorkouts: '/account/my-workouts',
-  CreateWorkout: '/account/create-workout',
-  Users: '/users',
-  Workouts: '/workouts',
+  TrainingCatalog: '/trainingCatalog',
+  CardUser: '/card-user',
 } as const;
+
+export enum PopupKey {
+  Feedback = 'popup-feedback',
+  Buy = 'popup-buy',
+}

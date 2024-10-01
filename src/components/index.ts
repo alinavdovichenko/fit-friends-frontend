@@ -8,3 +8,5 @@ export { default as SignLayout } from './sign-layout/sign-layout';
 export { default as LoginForm } from './login-form/login-form';
 export { default as RegisterForm } from './register-form/register-form';
 export { default as QuestionaryForm } from './questionary-form/questionary-form';
+export { default as UserForm } from './user-form/user-form';
+export { default as Popup } from './popup/popup';
