@@ -10,3 +10,8 @@ export { default as RegisterForm } from './register-form/register-form';
 export { default as QuestionaryForm } from './questionary-form/questionary-form';
 export { default as UserForm } from './user-form/user-form';
 export { default as Popup } from './popup/popup';
+export { default as TrainingCatologFilterForm } from './training-catalog-filter-form/training-catalog-filter-form';
+export { default as AvatarInput } from './avatar-input/avatar-input';
+export { default as CustomInput } from './custom-input/custom-input';
+export { default as BirthDayInput } from './birth-day-input/birth-day-input';
+export { default as SelectInput } from './select-input/select-input';

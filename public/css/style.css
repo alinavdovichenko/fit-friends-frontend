@@ -8608,6 +8608,26 @@ input:active + .custom-textarea__text {
   margin-bottom: 30px;
 }
 
+.sign-in__error {
+  margin: 11px 5px 0 auto;
+
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 15px;
+
+  color: #eb5555;
+}
+
+.sign-in__success {
+  margin: 11px 5px 0 auto;
+
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 15px;
+
+  color: #00AD20;
+}
+
 .sign-in__button {
   max-width: 256px;
   margin-top: 15px;
