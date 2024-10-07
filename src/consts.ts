@@ -1,5 +1,7 @@
 import { Location } from './types/location';
 
+export const SALE_PERCENT = 20;
+
 export const AppRoute = {
   Root: '/',
   Login: '/login',
