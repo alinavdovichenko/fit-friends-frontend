@@ -15,3 +15,5 @@ export { default as AvatarInput } from './avatar-input/avatar-input';
 export { default as CustomInput } from './custom-input/custom-input';
 export { default as BirthDayInput } from './birth-day-input/birth-day-input';
 export { default as SelectInput } from './select-input/select-input';
+export { default as RadioInput } from './radio-input/radio-input';
+export { default as RoleInput } from './role-input/role-input';
