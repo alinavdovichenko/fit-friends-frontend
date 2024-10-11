@@ -1,4 +1,4 @@
-function TrainingCatologFilterForm(): JSX.Element {
+function TrainingsFilter(): JSX.Element {
 
   return (
     <form className="gym-catalog-form__form">
@@ -264,4 +264,4 @@ function TrainingCatologFilterForm(): JSX.Element {
   );
 }
 
-export default TrainingCatologFilterForm;
+export default TrainingsFilter;
